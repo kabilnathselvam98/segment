@@ -135,6 +135,7 @@ function Savesegment() {
                   </div>
                 ))}
               </div>
+              <br></br>
               <a 
                 className={`add-schema-link ${availableSchemas.length === 0 ? 'disabled' : ''}`} 
                 onClick={availableSchemas.length > 0 ? addNewSchema : undefined}
